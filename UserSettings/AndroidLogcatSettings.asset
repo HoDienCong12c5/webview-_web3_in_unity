@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "88VY02BXY",
         "name": "com.DefaultCompany.mobile_web3",
-        "processId": 1228,
+        "processId": 1814,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -132,6 +132,12 @@
             "deviceId": "88VY02BXY",
             "name": "com.DefaultCompany.mobile_web3",
             "processId": 1228,
+            "exited": false
+        },
+        {
+            "deviceId": "88VY02BXY",
+            "name": "com.DefaultCompany.mobile_web3",
+            "processId": 1814,
             "exited": false
         }
     ],
