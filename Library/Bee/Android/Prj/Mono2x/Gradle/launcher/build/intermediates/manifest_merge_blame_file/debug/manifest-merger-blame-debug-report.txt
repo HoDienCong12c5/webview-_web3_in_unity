@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.mobile_web3"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0.2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
+11
+12    <supports-screens
+12-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:22-64
+25
+26    <uses-feature
+26-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-21:36
+27        android:name="android.hardware.touchscreen"
+27-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-52
+28        android:required="false" />
+28-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-33
+29    <uses-feature
+29-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:5-24:36
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-63
+31        android:required="false" />
+31-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-33
+32    <uses-feature
+32-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-27:36
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:9-72
+34        android:required="false" />
+34-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-33
+35
+36    <application
+36-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:3-83
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.1.0] /Users/trantantai/.gradle/caches/transforms-2/files-2.1/76f2b6439d16df60df3177021482ee5a/core-1.1.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:extractNativeLibs="true"
+39-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:18-50
+40        android:icon="@mipmap/app_icon"
+40-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:49-80
+41        android:label="@string/app_name" >
+41-->/Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:16-48
+42        <activity
+42-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:9-50:20
+43            android:name="com.unity3d.player.UnityPlayerActivity"
+43-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-66
+44            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+44-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-194
+45            android:hardwareAccelerated="true"
+45-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-47
+46            android:launchMode="singleTask"
+46-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-44
+47            android:resizeableActivity="false"
+47-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-47
+48            android:screenOrientation="fullSensor"
+48-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-51
+49            android:theme="@style/UnityThemeSelector" >
+49-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-54
+50            <intent-filter>
+50-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-42:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:17-69
+51-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:17-77
+53-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:27-74
+54            </intent-filter>
+55
+56            <meta-data
+56-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-46:40
+57                android:name="unityplayer.UnityActivity"
+57-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:17-57
+58                android:value="true" />
+58-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:17-37
+59            <meta-data
+59-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-49:40
+60                android:name="android.notch_support"
+60-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-53
+61                android:value="true" />
+61-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:17-37
+62        </activity>
+63
+64        <meta-data
+64-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:9-54:33
+65            android:name="unity.splash-mode"
+65-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:13-45
+66            android:value="0" />
+66-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-30
+67        <meta-data
+67-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:9-57:36
+68            android:name="unity.splash-enable"
+68-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:13-47
+69            android:value="True" />
+69-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-33
+70        <meta-data
+70-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:9-60:36
+71            android:name="unity.launch-fullscreen"
+71-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-51
+72            android:value="True" />
+72-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-33
+73        <meta-data
+73-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:9-63:37
+74            android:name="unity.allow-resizable-window"
+74-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-56
+75            android:value="False" />
+75-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-34
+76        <meta-data
+76-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:9-66:50
+77            android:name="notch.config"
+77-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-40
+78            android:value="portrait|landscape" />
+78-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-47
+79
+80        <receiver
+80-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:9-70:39
+81            android:name="com.unity.androidnotifications.UnityNotificationManager"
+81-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:13-83
+82            android:exported="true" />
+82-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:13-36
+83        <receiver
+83-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:9-78:20
+84            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+84-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:13-97
+85            android:enabled="false"
+85-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:73:13-36
+86            android:exported="true" >
+86-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:74:13-36
+87            <intent-filter>
+87-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:75:13-77:29
+88                <action android:name="android.intent.action.BOOT_COMPLETED" />
+88-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:17-79
+88-->[:unityLibrary] /Users/trantantai/Desktop/HoDienCong/Unity/mobile_web3/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:25-76
+89            </intent-filter>
+90        </receiver>
+91
+92        <activity android:name="com.onevcat.uniwebview.UniWebViewFileChooserActivity" />
+92-->[:UniWebView:] /Users/trantantai/.gradle/caches/transforms-2/files-2.1/709cc725e94176eaf65787ba69e577cc/jetified-UniWebView/AndroidManifest.xml:12:9-89
+92-->[:UniWebView:] /Users/trantantai/.gradle/caches/transforms-2/files-2.1/709cc725e94176eaf65787ba69e577cc/jetified-UniWebView/AndroidManifest.xml:12:19-86
+93    </application>
+94
+95</manifest>
