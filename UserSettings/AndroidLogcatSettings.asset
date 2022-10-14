@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "88VY02BXY",
         "name": "com.DefaultCompany.mobile_web3",
-        "processId": 1814,
+        "processId": 3756,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,133 +11,61 @@
         {
             "deviceId": "88VY02BXY",
             "name": "com.DefaultCompany.mobile_web3",
-            "processId": 20588,
+            "processId": 31467,
+            "exited": true
+        },
+        {
+            "deviceId": "88VY02BXY",
+            "name": "com.DefaultCompany.mobile_web3",
+            "processId": 32395,
+            "exited": true
+        },
+        {
+            "deviceId": "88VY02BXY",
+            "name": "com.DefaultCompany.mobile_web3",
+            "processId": 565,
+            "exited": true
+        },
+        {
+            "deviceId": "88VY02BXY",
+            "name": "com.DefaultCompany.mobile_web3",
+            "processId": 1611,
+            "exited": true
+        },
+        {
+            "deviceId": "88VY02BXY",
+            "name": "com.DefaultCompany.mobile_web3",
+            "processId": 2165,
+            "exited": true
+        },
+        {
+            "deviceId": "88VY02BXY",
+            "name": "com.google.android.apps.nexuslauncher",
+            "processId": 2923,
             "exited": false
         },
         {
             "deviceId": "88VY02BXY",
             "name": "com.DefaultCompany.mobile_web3",
-            "processId": 21870,
+            "processId": 3011,
             "exited": false
         },
         {
             "deviceId": "88VY02BXY",
             "name": "com.DefaultCompany.mobile_web3",
-            "processId": 22387,
+            "processId": 3355,
             "exited": false
         },
         {
             "deviceId": "88VY02BXY",
             "name": "com.DefaultCompany.mobile_web3",
-            "processId": 22781,
+            "processId": 3756,
             "exited": false
         },
         {
-            "deviceId": "88VY02BXY",
+            "deviceId": "R58N34N0Y8P",
             "name": "com.DefaultCompany.mobile_web3",
-            "processId": 23230,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 23517,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 23773,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 24051,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 24611,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 25557,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 26214,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 26461,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 27074,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 27324,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 27849,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 29060,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 29463,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 32010,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 32266,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 32674,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 1228,
-            "exited": false
-        },
-        {
-            "deviceId": "88VY02BXY",
-            "name": "com.DefaultCompany.mobile_web3",
-            "processId": 1814,
+            "processId": 29512,
             "exited": false
         }
     ],

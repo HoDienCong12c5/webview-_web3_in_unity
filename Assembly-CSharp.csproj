@@ -56,8 +56,97 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scriipts/WebView.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Library/IPFS.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC721/ERC721URIExample.cs" />
+    <Compile Include="Assets/Scripts/modals/functionForWeb.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/WebGL/WebGLTransfer721.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC721/ERC721OwnerOfExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC1155/ERC1155BalanceOfExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/GetListedNFTWebWallet.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Wallet/Web3WalletTransfer721Example.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC20/ERC20DecimalsExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/WebGL/WebGLSendTransactionExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Scenes/WebLogin.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC721/ERC721BalanceOfExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC1155/ERC1155URIExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/GetVoucherWeb3Wallet1155.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/PrivateKey/Web3PrivateKeySignMessageExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/Model/ListNFT.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/MintWeb3Wallet721.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Wallet/Web3WalletSha3Example.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/WebGL/WebGLTransfer1155.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/EVM/BlockNumberExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/EVM/TxStatus.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/EVM/CustomCallExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Library/Web3Wallet.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/Model/GetNftListModel.cs" />
+    <Compile Include="Assets/Scripts/Controller/LoginScreen.cs" />
+    <Compile Include="Assets/Scripts/modals/functionStorage.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/MintIPFS.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/PrivateKey/Web3PrivateKeySend721Example.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/EVM/EthBalanceOfExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Wallet/Web3WalletLogOut.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/EVM/AllErc721Example.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Library/ERC1155.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/Model/GetVoucherModel.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Library/ERC20.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Library/Web3PrivateKey.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/CreateApprovalWebGL.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/CreateApprovalWebWallet.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC20/ERC20BalanceOfExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/WebGL/WebGLSendContractExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/EVM/CreateContractDataExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/MintWebGL721.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC20/ERC20SymbolExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Wallet/Web3WalletSignMessageExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/GetVoucherWeb3Wallet721.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/GetVoucherWebGL1155.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Scenes/WalletLogin.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Library/EVM.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/Model/MintedNFT.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/EVM/VerifyExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/EVM/AllErc1155Example.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/Model/CreateMintModel.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/WebGL/WebGLSignOut.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC20/ERC20TotalSupplyExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/MintWebGL1155.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/Model/CreateApprovalModel.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/WebGL/WebGLSha3Example.cs" />
+    <Compile Include="Assets/Web3Unity/Prefabs/ERC1155/ImportNFTTextureExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/EVM/CustomRPCExample.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/moduls/UserSingeton.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/PrivateKey/Web3PrivateKeySend20Example.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/Model/BuyNFT.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/PrivateKey/SignVerifyPK.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/PrivateKey/Web3PrivateKeySendTransactionExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/MintWeb3Wallet1155.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/ListNFTWebGL.cs" />
+    <Compile Include="Assets/Scripts/Controller/MartketScreen.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/GetVoucherWebGL721.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Wallet/Web3WalletTransfer20Example.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/WebGL/WebGLTransfer20.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/Model/GetRootNft.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Wallet/Web3WalletTransfer1155Example.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Wallet/Web3WalletSendTransactionExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/IPFS/IPFSUploadExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Wallet/SignVerifyWebWallet.cs" />
+    <Compile Include="Assets/Scripts/Controller/HomeScreen.cs" />
+    <Compile Include="Assets/Scripts/modals/funtionWeb3.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/WebGL/WebGLSignMessageExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/MintPK721.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC1155/ERC1155BalanceOfBatchExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC20/ERC20NameExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/PrivateKey/Web3PrivateKeySend1155Example.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Library/ERC721.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/WebGL/WebGLSignVerifyExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/PrivateKey/Web3PrivateKeyAddressExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/GetListedNFTWebGL.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Library/WebGL/Web3GL.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/ERC721/ERC721OwnerOfBatchExample.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/ListNftWebWallet.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/Minter/MintPK1155.cs" />
+    <Compile Include="Assets/Web3Unity/Scripts/Prefabs/EVM/NonceExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -66,6 +155,10 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/JsonDotNet/link.xml" />
+    <None Include="Assets/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML" />
+    <None Include="Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML" />
+    <None Include="Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -74,7 +167,10 @@
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll" />
+    <None Include="Assets/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
@@ -317,8 +413,17 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Jint">
+      <HintPath>Assets/Plugins/Jint/Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>Assets/Plugins/BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.1f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -799,6 +904,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{47D61CEA-6D61-A68B-968B-2EFDD16E54F3}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="UniWebView-CSharp.csproj">
       <Project>{C95228FC-8437-1F87-4A52-C082701E7501}</Project>
       <Name>UniWebView-CSharp</Name>

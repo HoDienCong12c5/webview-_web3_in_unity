@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ViewWeb.unity
+    path: Assets/Scenes/Home.unity
+    guid: 19d7c0ad326974bcd8fe5f6e7f94f66e
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: 3149db9074604417f95a35a52231d70e
+  - enabled: 1
+    path: Assets/Scenes/Martket.unity
     guid: 94be8c2d38e9f4020ae3c70390a44e58
+  - enabled: 0
+    path: Assets/Scenes/market.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a8c2ef92342a146b998820739a07a1c3,
       type: 2}
